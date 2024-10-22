@@ -1,3 +1,11 @@
 textarea {
     min-height: 400px;
 }
+
+.list-group-item.read {
+    background-color: lightgoldenrodyellow;
+}
+
+.list-group-item.unread {
+    background-color: white;
+}
