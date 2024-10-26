@@ -1,11 +1,24 @@
-textarea {
-    min-height: 400px;
-}
-
+/* Styles pour les éléments de liste */
 .list-group-item.read {
-    background-color: lightgoldenrodyellow;
+    background-color: #f0f0f0; /* Couleur de fond pour les éléments lus */
+}
+.list-group-item.unread {
+    background-color: #f9e0e0; /* Couleur de fond pour les éléments non lus */
 }
 
-.list-group-item.unread {
-    background-color: white;
+/* Styles pour textarea */
+textarea {
+    min-height: 200px; /* Hauteur minimum de 200px */
+    resize: vertical;  /* Autoriser le redimensionnement vertical */
+}
+
+/* Styles pour les boutons */
+.btn {
+    border-radius: 20px; /* Arrondir les bords des boutons */
+}
+
+/* Styles pour les cartes */
+.card {
+    border-radius: 15px; /* Arrondir les coins de la carte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère à la carte */
 }
